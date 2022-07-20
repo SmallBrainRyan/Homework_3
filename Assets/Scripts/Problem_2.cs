@@ -13,7 +13,7 @@ public class Problem_2 : MonoBehaviour
         int[] disorder = new int[3]{0,5,2};
         bool isInOrder;
 
-        for(int count = 0; count<2; count++)
+        for(int count = 1; count<2; count++)
         {
             isInOrder = disorder[count] < disorder[count+1];
             print("2 -> " + isInOrder);

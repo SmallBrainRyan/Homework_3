@@ -13,8 +13,8 @@ public class Problem_1 : MonoBehaviour
         for(int num = 0; num<10; num++)
         {
             sum += parts[num];
-            print("1 -> " + sum);
         }
+        print("1 -> " + sum);
     }
 }
 
