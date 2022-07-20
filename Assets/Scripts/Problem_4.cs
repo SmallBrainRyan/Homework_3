@@ -11,5 +11,12 @@ public class Problem_4 : MonoBehaviour
     */
     void Start()
     {
+        for(int odd = 1; odd<=144; odd++)
+        {
+            if(odd%7 == 0)
+            {
+                print("4 -> " + odd);
+            }
+        }
     }
 }

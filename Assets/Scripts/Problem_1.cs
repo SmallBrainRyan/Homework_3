@@ -10,6 +10,11 @@ public class Problem_1 : MonoBehaviour
     {
         int[] parts = new int[10] { 12, 3, 4234, 123, 325453141, 123, 123213, 1, 4, 32 };
         int sum = 0;
+        for(int num = 0; num<10; num++)
+        {
+            sum += parts[num];
+            print("1 -> " + sum);
+        }
     }
 }
 
