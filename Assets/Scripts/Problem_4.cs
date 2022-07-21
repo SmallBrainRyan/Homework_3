@@ -11,12 +11,18 @@ public class Problem_4 : MonoBehaviour
     */
     void Start()
     {
-        for(int odd = 1; odd<=144; odd++)
+        List<int> nums = new List<int>();
+        for (int odd = 1; odd<=144; odd++)
         {
-            if(odd%7 == 0)
+            if (odd % 7 == 0 && odd % 2 != 0)
             {
-                print("4 -> " + odd);
+                nums.Add(odd);
             }
+        }
+        int[] array = new int[5] { nums[0], nums[2], nums[4], nums[6], nums[8] };
+        foreach(int var in array)
+        {
+            print(var);
         }
     }
 }
